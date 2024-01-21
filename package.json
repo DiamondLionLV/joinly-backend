@@ -1,0 +1,21 @@
+{
+  "name": "gptchill-backend",
+  "version": "1.0.0",
+  "description": "Backend server for MiReal app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "firebase": "^10.7.2",
+    "nodemon": "^3.0.3"
+  }
+}
