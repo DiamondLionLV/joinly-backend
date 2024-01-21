@@ -1,5 +1,5 @@
 import { initializeApp } from 'firebase/app';
-import { getFirestore, doc, updateDoc, collection, getDocs, writeBatch } from 'firebase/firestore';
+import { getFirestore, doc, updateDoc, collection, getDocs } from 'firebase/firestore';
 import dotenv from 'dotenv';
 
 dotenv.config();
