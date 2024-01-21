@@ -177,5 +177,5 @@ const updateNotificationTimes = async () => {
 };
 
 // Set up interval to run the updateNotificationTimes function every 10 minutes (adjust as needed)
-//setInterval(updateNotificationTimes, 10 * 60 * 1000);
-setInterval(updateNotificationTimes, 10000);
+setInterval(updateNotificationTimes, 10 * 60 * 1000);
+//setInterval(updateNotificationTimes, 10000);
